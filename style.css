@@ -1,0 +1,351 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ol,ul,li{
+	list-style: none;
+}
+.header-wrap{
+	width: 100%;
+	height: 50px;
+}
+.header{
+	width: 1200px;
+	height: 50px;
+	position: relative;
+}
+.header1,.top0,.top1,.topimg0,.topimg1{
+	position: absolute;
+}
+.header1{
+	height: 30px;
+	width: 150px;
+	left: 650px;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 5px;
+	color: rgb(90,90,90);
+}	
+.top0{
+	left: 815px; 
+}
+a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.top1 select,.top1 a,.top0 a{
+	color: rgb(90,90,90);
+}
+.top1{
+	left: 960px;
+	border: none;
+}
+.topimg0,.topimg1{
+	width: 30px;
+}
+.topimg0{
+	right: -50px;
+}
+.topimg1{
+	right: -80px;
+	}
+.toolbar{
+	position: fixed;
+	right: 0px;
+	width:50px;
+	height: 408px;
+	top: 26%;
+	border: 1px double #000;
+	background-color: rgb(0,0,0,90%);
+}
+.toolbar li{
+	width: 50px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	border-bottom: 2px solid rgb(120,120,120,80%);
+}
+.toolbar img{
+	margin-top: 20px
+}
+.nav-warp{
+	width: 100%;
+	height: 150px;
+}
+.nav{
+	width: 1200px;
+	height: 150px;
+	margin: 0px auto;
+}
+.nav1{
+	width: 1200px;
+	height: 100px;
+}
+.nav1 div{
+	float: left;
+}
+.navimg0{
+	width: 400px;
+	height: 90px;
+}
+.navimg0 img{
+	margin-top: 20px;
+}
+.search{
+	width: 650px;
+	height: 90px;
+}
+.search form{
+	margin-top: 20px;
+	width: 800px;
+	height: 90px;
+}
+.searchtext{
+	margin-top: 10px;
+	width: 550px;
+	height: 40px;
+	float: left;
+	color: rgb(120,120,120);
+	text-align: center;
+	border: 1px solid rgb(0,0,0);
+	border-right: 1px solid rgb(120,120,120);
+}
+.searchbutton{
+	width: 50px;
+	height: 42px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(search.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	border: 1px solid rgb(0,0,0);
+	border-left: 1px solid rgb(120,120,120);
+}
+.navimg1{
+	width: 100px;
+	height:90px;
+	margin-top: 15px; 
+}
+.navimg1 img{
+	margin-top: 20px;
+}
+.nva2{
+	width: 1200px;
+	height: 50px;
+}
+.nav2 form{
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+.nav2 select{
+	margin-top: 10px;
+	border: none;
+	font-size: 16px;
+}
+.nav2 li{
+	margin-top: 10px;
+	float: left;
+	width: 105px;
+	height: 38px;
+	text-align: center;
+}
+.nav2 li:hover{
+	border-bottom: 2px solid rgb(58,167,71);
+}
+.nav2 li:hover a{
+	color: rgb(58,167,71);
+}
+.banner{
+
+	width: 1500px;
+	height: 680px;
+}
+.banner img{
+	border-top: 2px solid rgb(58,167,71);
+	width: 1919px;
+	height: 670px;
+}
+.mulu{
+	width: 100%;
+	height: 200px;
+}
+.mulu1{
+	width: 1200px;
+	height: 200px;
+	margin:0px auto;
+}
+.mulu1 div{
+	float: left;
+}
+.shouye{
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.shouye-a{
+	font-size: 14px;
+	color: rgb(90,90,90);
+}
+.shouye1{
+	width: 1050px;
+	height: 60px;
+}
+.shouye1 p{
+	margin-top: 45px;
+	text-align: right;
+	font-size: 11px;
+	color: rgb(90,90,90);
+}
+.content1,.content2,.content3 {
+	float: left;
+	width: 1200px;
+	height: 46px;
+	border: 1px solid rgb(150,150,150);
+}
+.content2{
+	border:none;
+	border-left: 1px solid rgb(150,150,150);
+	border-right: 1px solid rgb(150,150,150);
+}
+.content1 li,.content2 li,.content3 li{
+	float: left;
+	width: 120px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.content1 li a,.content2 li a,.content3 li a{
+	color: rgb(120,120,120);
+}
+.content1 li a:hover,.content2 li a:hover,.content3 li a:hover{
+	color: rgb(58,167,71);
+}
+.tou{
+	width: 100px;
+	background-color: rgb(180,180,180);
+}
+.kongbai{
+	width: 1200px;
+	height: 40px;
+}
+.body-wrap{
+	width: 100%;
+	height: 760px;
+}
+.body{
+	width: 1200px;
+	height: 760px;
+	margin: 0px auto;
+}
+.body div{
+	float: left;
+}
+.square{
+	width: 300px;
+	height: 330px;
+}
+.square1{
+	width: 275px;
+	height: 295px;
+	text-align: center;
+	border: 1px solid rgb(150,150,150);
+	position: relative;
+}
+.money{
+	width: 275px;
+	height: 47px;
+	background-color: rgb(20,20,20,80%);
+	position: absolute;
+	bottom: 0px;
+}
+.money p{
+	width: 275px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: rgb(255,255,255);
+	font-size: 14px;
+}
+.square1:hover .money{
+	width: 275px;
+	height: 295px;
+	background-color: rgb(20,20,20,80%);
+	position: absolute;
+	bottom: 0px;
+}
+.square1:hover p{
+	text-align: center;
+	height: 50px;
+	line-height: 295px;
+	font-size: 20px;
+}
+.leg-warp{
+	width: 100%；
+	height:100px;
+	background-color: rgb(233,233,233);
+}
+.leg{
+	width: 1200px;
+	height: 100px;
+	margin: 0px auto;
+}
+.leg div{
+	float: left;
+}
+.dikuai1{
+	width: 105px;
+	height: 100px;
+	text-align: center;
+	line-height: 150px;
+}
+.dikuai2 p{
+	width: 195px;
+	height: 30px;
+	color: rgb(66,66,66);
+}
+.pp1{
+	font-size: 18px;
+	margin-top: 28px
+}
+.tail-warp{
+	width: 100%；
+	height:100px;
+	background-color: rgb(22,22,22,90%);
+}
+.tail{
+	width: 1200px;
+	height: 100px;
+	margin: 0px auto;
+}
+.tail div{
+	float: left;
+}
+.didi{
+	width: 1200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+.didi p{
+	text-align: center;
+}
+.didi a{
+	font-size: 13px;
+	color: rgb(255,255,255);
+}
+.fenge{
+	margin: 0px 10px;
+	color: rgb(255,255,255);
+}
+.banquan{
+	width: 1200px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: rgb(255,255,255);
+}
